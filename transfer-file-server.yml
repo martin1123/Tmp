@@ -7,9 +7,9 @@ server:
   port: 15000
 
 proxy:
-  host: non_proxy     # Se ingresa el valor 'non_proxy' (sin comillas) si no se desea configurar proxy 
-  port: 4567
-  user: user
-password: password
+  host: 192.168.80.90     # Se ingresa el valor 'non_proxy' (sin comillas) si no se desea configurar proxy 
+  port: 3129
+  user: mmaccio
+password: Lambda01
 
 # Archivo de configuración en cada ambiente
