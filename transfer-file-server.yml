@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    async:
+      request-timeout: 3600000
+
+server:
+  port: 15000
+
+proxy:
+  host: non_proxy     # Se ingresa el valor 'non_proxy' (sin comillas) si no se desea configurar proxy 
+  port: 4567
+  user: user
+password: password
+
+# Archivo de configuración en cada ambiente
